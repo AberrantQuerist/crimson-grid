@@ -255,6 +255,10 @@
 /obj/structure/vampdoor/simple,
 /turf/open/floor/wood/smooth/old,
 /area/space)
+"op" = (
+/obj/effect/decal/cleanable/cardboard,
+/turf/open/floor/plating/sidewalk/poor,
+/area/space)
 "oG" = (
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/old,
@@ -702,6 +706,10 @@
 	},
 /turf/open/floor/city/toilet,
 /area/space)
+"Hi" = (
+/obj/structure/closet/crate/dumpster,
+/turf/open/floor/plating/sidewalk/poor,
+/area/space)
 "HE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -901,10 +909,6 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/space)
-"PX" = (
-/obj/structure/closet/crate/dumpster,
-/turf/open/floor/plating/sidewalk/poor,
-/area/space)
 "Rk" = (
 /obj/effect/decal/wallpaper/paper/darkred,
 /turf/closed/wall/vampwall/old,
@@ -939,8 +943,16 @@
 /obj/effect/spawner/random/bedsheet,
 /turf/open/floor/carpet/darkpack/greengold,
 /area/space)
+"Tb" = (
+/obj/effect/decal/cleanable/trash,
+/turf/open/floor/plating/sidewalk/poor,
+/area/space)
 "Tg" = (
 /turf/open/floor/plating/asphalt,
+/area/space)
+"Tw" = (
+/obj/effect/decal/cleanable/litter,
+/turf/open/floor/plating/sidewalk/poor,
 /area/space)
 "Tz" = (
 /obj/structure/roofstuff/alt2,
@@ -1007,9 +1019,17 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/space)
+"Xf" = (
+/obj/effect/landmark/start,
+/turf/open/floor/plating/asphalt,
+/area/space)
 "Xt" = (
 /obj/machinery/sprinkler,
 /turf/open/floor/wood/smooth/old,
+/area/space)
+"Xy" = (
+/obj/effect/landmark/latejoin,
+/turf/open/floor/plating/asphalt,
 /area/space)
 "XN" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
@@ -61956,15 +61976,15 @@ AI
 AI
 FB
 AI
-zl
-zl
-Tg
-Tg
-Tg
-Tg
-Tg
-zl
-zl
+vw
+vw
+vw
+vw
+vw
+vw
+vw
+vw
+vw
 AI
 FB
 AI
@@ -79262,7 +79282,7 @@ hv
 "}
 (88,1,2) = {"
 hv
-zl
+vw
 zl
 zl
 zl
@@ -79464,7 +79484,7 @@ hv
 "}
 (89,1,2) = {"
 hv
-zl
+vw
 zl
 zl
 zl
@@ -79666,7 +79686,7 @@ hv
 "}
 (90,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -79868,7 +79888,7 @@ hv
 "}
 (91,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -80070,7 +80090,7 @@ hv
 "}
 (92,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -80272,7 +80292,7 @@ hv
 "}
 (93,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -80474,7 +80494,7 @@ hv
 "}
 (94,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -80676,7 +80696,7 @@ hv
 "}
 (95,1,2) = {"
 hv
-zl
+vw
 zl
 zl
 zl
@@ -80878,7 +80898,7 @@ hv
 "}
 (96,1,2) = {"
 hv
-zl
+vw
 zl
 zl
 zl
@@ -103906,7 +103926,7 @@ hv
 "}
 (210,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -104108,7 +104128,7 @@ hv
 "}
 (211,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -104310,7 +104330,7 @@ hv
 "}
 (212,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -107848,7 +107868,7 @@ qJ
 qJ
 qJ
 qJ
-qJ
+Tb
 qJ
 qJ
 qJ
@@ -108043,7 +108063,7 @@ iK
 iK
 lC
 qJ
-qJ
+op
 qJ
 qJ
 Pw
@@ -108648,7 +108668,7 @@ iK
 iK
 iK
 lC
-PX
+Hi
 qJ
 qJ
 gM
@@ -109052,7 +109072,7 @@ iK
 iK
 iK
 lC
-PX
+Hi
 qJ
 qJ
 qJ
@@ -109254,7 +109274,7 @@ iK
 iK
 iK
 lC
-qJ
+Ej
 qJ
 qJ
 qJ
@@ -109861,7 +109881,7 @@ qJ
 qJ
 qJ
 qJ
-qJ
+Tw
 qJ
 gM
 pu
@@ -110271,7 +110291,7 @@ qJ
 rG
 Pl
 qJ
-qJ
+Tw
 rG
 Pl
 qJ
@@ -113400,7 +113420,7 @@ hv
 "}
 (257,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -113602,7 +113622,7 @@ hv
 "}
 (258,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -113804,7 +113824,7 @@ hv
 "}
 (259,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -114006,7 +114026,7 @@ hv
 "}
 (260,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -114208,7 +114228,7 @@ hv
 "}
 (261,1,2) = {"
 hv
-Tg
+vw
 Tg
 Tg
 Tg
@@ -121819,9 +121839,9 @@ zl
 zl
 Tg
 Tg
+Xy
 Tg
-Tg
-Tg
+Xf
 Tg
 Tg
 zl
