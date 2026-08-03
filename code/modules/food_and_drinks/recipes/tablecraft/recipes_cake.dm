@@ -7,7 +7,7 @@
 	name = "Carrot cake"
 	reqs = list(
 		/obj/item/food/cake/plain = 1,
-		/obj/item/food/grown/carrot = 2
+		/obj/item/food/grown/carrotlike/carrot = 2
 	)
 	result = /obj/item/food/cake/carrot
 	dish_category = DISH_CAKE
@@ -86,7 +86,7 @@
 	dish_category = DISH_CAKE
 	meal_category = MEAL_DESSERT
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/energycake
 	name = "Energy cake"
 	reqs = list(
@@ -130,7 +130,7 @@
 	dish_category = DISH_CAKE
 	meal_category = MEAL_DESSERT
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/holycake
 	name = "Angel food cake"
 	reqs = list(
@@ -152,7 +152,7 @@
 	dish_category = DISH_CAKE
 	meal_category = MEAL_DESSERT
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/hardwarecake
 	name = "Hardware cake"
 	reqs = list(
@@ -164,6 +164,7 @@
 	added_foodtypes = GROSS
 	dish_category = DISH_CAKE
 	meal_category = MEAL_DESSERT
+	unit_test_spawn_extras = list(/obj/item/circuitboard/machine/vendor = 2) //cannot spawn the abstract circuit board
 */
 
 /datum/crafting_recipe/food/berry_chocolate_cake
@@ -250,7 +251,7 @@
 	dish_category = DISH_CAKE
 	meal_category = MEAL_DESSERT
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/cak
 	name = "Living cat/cake hybrid"
 	reqs = list(

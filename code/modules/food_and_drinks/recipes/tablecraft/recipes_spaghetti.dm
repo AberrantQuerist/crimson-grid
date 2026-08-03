@@ -13,7 +13,7 @@
 	dish_category = DISH_NOODLES
 	cuisine_category = CUISINE_ITALIAN
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/copypasta
 	name = "Copypasta"
 	reqs = list(
@@ -62,7 +62,7 @@
 		/obj/item/food/spaghetti/boiledspaghetti = 1,
 		/obj/item/food/meat/cutlet = 1,
 		/obj/item/food/grown/cabbage = 2,
-		/obj/item/food/grown/carrot = 1
+		/obj/item/food/grown/carrotlike/carrot = 1
 	)
 	result = /obj/item/food/spaghetti/chowmein
 	dish_category = DISH_NOODLES
@@ -140,7 +140,7 @@
 		/obj/item/food/spaghetti/boiledspaghetti = 1,
 		/obj/item/food/meat/cutlet = 2,
 		/obj/item/food/grown/potato = 1,
-		/obj/item/food/grown/carrot = 1,
+		/obj/item/food/grown/carrotlike/carrot = 1,
 		/obj/item/food/grown/peas = 1,
 	)
 	result = /obj/item/food/spaghetti/nikujaga

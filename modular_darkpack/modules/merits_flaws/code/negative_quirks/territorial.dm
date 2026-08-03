@@ -4,7 +4,7 @@ GLOBAL_LIST_INIT(territorial_type_choices, init_territorial_type_choices())
 	var/list/choices = list()
 	for(var/area/vtm/area_type as anything in subtypesof(/area/vtm))
 		var/area/vtm/typed = area_type
-		var/area/vtm/parent = type2parent(area_type)
+		var/area/vtm/parent = area_type::parent_type
 		if(initial(typed.domain) && !initial(parent.domain))
 			choices[initial(typed.name)] = area_type
 	return choices
@@ -35,6 +35,7 @@ GLOBAL_LIST_INIT(territorial_type_choices, init_territorial_type_choices())
 /datum/quirk/darkpack/territorial
 	name = "Territorial"
 	desc = "You are extremely territorial, and can only feed in one particular area. You react with hostility if another vampire enters your territory without your notice - and if they feed without your permission, violence is sure to break out, as they're taking your food and resources. You are reluctant to leave your territory unless necessary. Your territory is the only area where you may feed."
+	ttrpg_sources = list(/datum/source_book/vtm20 = 486)
 	value = -2
 	mob_trait = TRAIT_VAMPIRE_TERRITORIAL
 	gain_text = span_notice("You need to protect your hunting grounds, your herd, your territory.")

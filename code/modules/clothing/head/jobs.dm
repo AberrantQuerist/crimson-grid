@@ -124,6 +124,12 @@
 	icon_state = "capcap"
 	dog_fashion = null
 
+/obj/item/clothing/head/hats/caphat/bicorne
+	name = "captain's bicorne"
+	desc = "Why be king when you can be Emperor?"
+	icon_state = "capbicorne"
+	dog_fashion = null
+
 /obj/item/clothing/head/caphat/beret
 	name = "captain's beret"
 	desc = "For the Captains known for their sense of fashion."
@@ -301,7 +307,7 @@
 		var/obj/item/found_item = items_by_regex[found_regex]
 		. += span_notice("[icon2html(found_item, user)] You can remove [found_item] by saying <b>\"[prefix] [found_phrase]\"</b>!")
 
-/obj/item/clothing/head/fedora/inspector_hat/Hear(atom/movable/speaker, message_language, raw_message, radio_freq, radio_freq_name, radio_freq_color, list/spans, list/message_mods = list(), message_range, source) // DARKPACK EDIT, ORIGINAL: /obj/item/clothing/head/fedora/inspector_hat/Hear(atom/movable/speaker, message_language, raw_message, radio_freq, radio_freq_name, radio_freq_color, list/spans, list/message_mods = list(), message_range)
+/obj/item/clothing/head/fedora/inspector_hat/Hear(atom/movable/speaker, message_language, raw_message, radio_freq, radio_freq_name, radio_freq_color, list/spans, list/message_mods = list(), message_range, source) // DARKPACK EDIT CHANGE - ORIGINAL: /obj/item/clothing/head/fedora/inspector_hat/Hear(atom/movable/speaker, message_language, raw_message, radio_freq, radio_freq_name, radio_freq_color, list/spans, list/message_mods = list(), message_range)
 	. = ..()
 	var/mob/living/carbon/wearer = loc
 	if(!istype(wearer) || speaker != wearer) //if we are worn
@@ -315,7 +321,7 @@
 		var/obj/item/found_item = items_by_regex[found_regex]
 		if(wearer.put_in_hands(found_item))
 			wearer.visible_message(span_warning("[src] drops [found_item] into the hands of [wearer]!"))
-			. = TRUE
+			. = HEAR_HEARD | HEAR_UNDERSTOOD
 		else
 			balloon_alert(wearer, "can't put in hands!")
 			break

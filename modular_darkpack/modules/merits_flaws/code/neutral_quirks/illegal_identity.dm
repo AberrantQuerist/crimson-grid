@@ -2,6 +2,7 @@
 /datum/quirk/darkpack/illegal_identity
 	name = "Illegal Identity"
 	desc = "Illegal immigrant? Died legally? Born a wolf? The cops aren't happy."
+	ttrpg_sources = list(/datum/source_book/homebrew = WE_MADE_IT_UP)
 	value = 0
 	quirk_flags = QUIRK_HUMAN_ONLY|QUIRK_HIDE_FROM_SCAN
 	icon = FA_ICON_PERSON_CIRCLE_QUESTION
@@ -14,9 +15,10 @@
 
 /datum/quirk/darkpack/illegal_identity/add()
 	. = ..()
-	if(!ishuman(quirk_holder))
+	var/mob/living/carbon/human/criminal = astype(quirk_holder)
+	if(!criminal)
 		return
-	var/mob/living/carbon/human/criminal = quirk_holder
+
 	var/obj/item/passport/passport = locate() in criminal // In pockets
 	if(!passport && criminal.back)
 		passport = locate() in criminal.back // In backpack

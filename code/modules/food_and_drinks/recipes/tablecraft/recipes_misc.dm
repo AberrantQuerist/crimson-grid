@@ -14,7 +14,7 @@
 	dish_category = DISH_CANDY
 	meal_category = MEAL_DESSERT
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/spiderlollipop
 	name = "Spider Lollipop"
 	reqs = list(/obj/item/stack/rods = 1,
@@ -100,7 +100,7 @@
 	name ="Melon keg"
 	reqs = list(
 		/datum/reagent/consumable/ethanol/vodka = 25,
-		/obj/item/food/grown/holymelon = 1,
+		/obj/item/food/grown/melonlike/holymelon = 1,
 		/obj/item/reagent_containers/cup/glass/bottle/vodka = 1
 	)
 	result = /obj/item/food/melonkeg
@@ -117,7 +117,7 @@
 	added_foodtypes = SUGAR
 	dish_category = DISH_UNCATEGORIZED
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/powercrepe
 	name = "Powercrepe"
 	time = 4 SECONDS
@@ -169,7 +169,7 @@
 	removed_foodtypes = BREAKFAST
 	dish_category = DISH_SALAD
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/butterbear //ITS ALIVEEEEEE!
 	name = "Living bear/butter hybrid"
 	reqs = list(
@@ -201,7 +201,7 @@
 	removed_foodtypes = RAW
 	meal_category = MEAL_APPETIZER
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/royalcheese
 	name = "Royal Cheese"
 	reqs = list(
@@ -331,7 +331,7 @@
 /datum/crafting_recipe/food/springroll
 	name = "Spring roll"
 	reqs = list(
-		/obj/item/food/grown/carrot = 1,
+		/obj/item/food/grown/carrotlike/carrot = 1,
 		/obj/item/food/grown/cucumber = 1,
 		/obj/item/food/grown/chili = 1,
 		/datum/reagent/consumable/rice = 10,
