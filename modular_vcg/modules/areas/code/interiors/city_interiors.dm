@@ -68,3 +68,23 @@
 	name = "Black Market"
 	icon = 'modular_vcg/modules/areas/icons/areas.dmi'
 	icon_state = "shop_black_market"
+
+/area/vtm/interior/shop/antiques
+	name = "Antique Store"
+	icon = 'modular_vcg/modules/areas/icons/areas.dmi'
+	icon_state = "shop_antique"
+
+/area/vtm/interior/shop/hardware
+	name = "Hardware Store"
+	icon = 'modular_vcg/modules/areas/icons/areas.dmi'
+	icon_state = "shop_hardware"
+
+/area/vtm/interior/shop/pharmacy
+	name = "Pharmacy"
+	icon = 'modular_vcg/modules/areas/icons/areas.dmi'
+	icon_state = "shop_pharmacy"
+
+/area/vtm/interior/shop/music_store
+	name = "Music Store"
+	icon = 'modular_vcg/modules/areas/icons/areas.dmi'
+	icon_state = "shop_music"
