@@ -31358,6 +31358,17 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/fishermanswharf/lower)
+"inD" = (
+/obj/effect/turf_decal/bordur{
+	dir = 4
+	},
+/obj/structure/vampdoor/glass{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/autoname,
+/turf/open/floor/city/industrial,
+/area/vtm/interior/shop/hardware)
 "inF" = (
 /obj/effect/decal/cleanable/trash,
 /obj/machinery/light/warm/directional/south,
@@ -79361,14 +79372,14 @@
 /turf/open/floor/carpet,
 /area/vtm/interior/oldchurch)
 "uXM" = (
-/obj/effect/turf_decal/bordur{
-	dir = 1
-	},
 /obj/structure/vampdoor/glass{
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/autoname,
+/obj/effect/turf_decal/bordur{
+	dir = 4
+	},
 /turf/open/floor/city/industrial,
 /area/vtm/interior/shop/hardware)
 "uXU" = (
@@ -182776,7 +182787,7 @@ jxb
 bJQ
 hwM
 bJQ
-uXM
+inD
 uXM
 bJQ
 hwM
