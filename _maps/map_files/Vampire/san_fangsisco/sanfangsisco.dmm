@@ -23842,9 +23842,9 @@
 /turf/open/floor/plating/roofwalk,
 /area/vtm)
 "gka" = (
-/obj/structure/table/countertop/bubway,
 /obj/structure/table,
 /obj/vampire_computer,
+/obj/structure/platform/lowwall/brick,
 /turf/open/floor/city/industrial,
 /area/vtm/interior/shop/hardware)
 "gkf" = (
@@ -29844,6 +29844,7 @@
 	pixel_x = 0;
 	pixel_y = -10
 	},
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/antiques)
 "hQb" = (
@@ -34012,9 +34013,11 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/techshop)
 "iZy" = (
-/obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/glass,
-/turf/open/floor/plating/sidewalk,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/city/plating_stone,
 /area/vtm/interior/shop/pharmacy)
 "iZB" = (
 /obj/effect/turf_decal/siding/white,
@@ -42059,6 +42062,10 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/clinic)
+"lhm" = (
+/obj/effect/landmark/navigate_destination,
+/turf/open/floor/carpet/red,
+/area/vtm/interior/shop/music_store)
 "lho" = (
 /obj/structure/curtain/bounty,
 /obj/structure/platform/lowwall/rich/window/reinforced,
@@ -50718,6 +50725,10 @@
 /obj/effect/spawner/random/maintenance/dumpster,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/fishermanswharf/ghetto)
+"nyI" = (
+/obj/effect/landmark/navigate_destination,
+/turf/open/floor/city/plating_stone,
+/area/vtm/interior/shop/pharmacy)
 "nyL" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/flashlight/lantern,
@@ -51463,7 +51474,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 1
 	},
-/turf/open/floor/plating/concrete,
+/turf/open/floor/wood/old,
 /area/vtm/interior/shop/clothing)
 "nHS" = (
 /obj/structure/vampipe{
@@ -58328,6 +58339,10 @@
 	},
 /turf/open/floor/city/circled/large,
 /area/vtm/interior/clinic)
+"pwu" = (
+/obj/effect/landmark/navigate_destination,
+/turf/open/floor/city/bacotell,
+/area/vtm/interior/shop/baco)
 "pww" = (
 /obj/structure/table/wood,
 /obj/item/clothing/mask/vampire/venetian_mask,
@@ -58747,9 +58762,9 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/hotel)
 "pBx" = (
-/obj/structure/table/countertop/bubway,
 /obj/structure/retail/general,
 /obj/structure/table,
+/obj/structure/platform/lowwall/brick,
 /turf/open/floor/city/industrial,
 /area/vtm/interior/shop/hardware)
 "pBJ" = (
@@ -60748,8 +60763,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/forest)
 "qcN" = (
-/obj/structure/table/countertop/bubway,
 /obj/structure/table,
+/obj/structure/platform/lowwall/brick,
 /turf/open/floor/city/industrial,
 /area/vtm/interior/shop/hardware)
 "qcO" = (
@@ -73368,11 +73383,11 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "tqB" = (
-/obj/structure/table/countertop/bubway,
 /obj/item/clothing/head/utility/welding{
 	pixel_x = 2;
 	pixel_y = 12
 	},
+/obj/structure/table/countertop,
 /turf/open/floor/city/industrial,
 /area/vtm/interior/shop/hardware)
 "tqC" = (
@@ -179704,9 +179719,9 @@ xjO
 bWQ
 bWQ
 jty
-gIs
-gIs
-gIs
+tmL
+tmL
+tmL
 tmL
 pHC
 vrV
@@ -179960,7 +179975,7 @@ xEC
 oWo
 vCP
 bWQ
-bTC
+bWQ
 bWQ
 bWQ
 bWQ
@@ -188674,7 +188689,7 @@ lFi
 rcq
 rcq
 kBk
-rcq
+lTi
 ots
 rcq
 lTi
@@ -189699,7 +189714,7 @@ lMe
 lMe
 lMe
 lMe
-rcq
+lTi
 hhe
 lTi
 bKw
@@ -190018,7 +190033,7 @@ xLF
 xEx
 cZA
 lNg
-lNg
+lhm
 lNg
 qEM
 wFF
@@ -190473,7 +190488,7 @@ sUi
 rcq
 rcq
 rcq
-rcq
+lTi
 bVW
 lTi
 aIw
@@ -193088,11 +193103,11 @@ bVK
 fQP
 rFS
 iog
-juN
+jxg
 aWE
 tHt
 tyv
-juN
+jxg
 cqR
 jxg
 mpn
@@ -193605,7 +193620,7 @@ iog
 iZy
 mio
 mio
-mio
+nyI
 mio
 mio
 jxg
@@ -193617,7 +193632,7 @@ bvQ
 stx
 dBs
 scR
-scR
+pwu
 scR
 lMv
 nYX
