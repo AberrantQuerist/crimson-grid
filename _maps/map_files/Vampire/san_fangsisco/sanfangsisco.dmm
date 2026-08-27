@@ -18843,7 +18843,6 @@
 /obj/structure/flora/bush/flowers_yw/style_random{
 	pixel_y = 2
 	},
-/obj/machinery/light/prince/directional/east,
 /obj/structure/railing{
 	dir = 4
 	},
