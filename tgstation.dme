@@ -8331,6 +8331,7 @@
 #include "modular_vcg\modules\fera\form_tweaks.dm"
 #include "modular_vcg\modules\ghost_visibility_notice\code\observer.dm"
 #include "modular_vcg\modules\improved_changelog\code\changelog.dm"
+#include "modular_vcg\modules\jobs\code\anarchs\anarchs.dm"
 #include "modular_vcg\modules\jobs\code\camarilla\prince.dm"
 #include "modular_vcg\modules\jobs\code\garou\councillor.dm"
 #include "modular_vcg\modules\jobs\code\garou\guardian.dm"
