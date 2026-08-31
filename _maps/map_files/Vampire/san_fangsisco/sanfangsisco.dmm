@@ -7412,12 +7412,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/unionsquare)
-"bXS" = (
-/obj/machinery/shuttle_scrambler{
-	desc = "Some sort of jury-rigged telnet system; it looks like it's harvesting someone's data illegally."
-	},
-/turf/open/floor/carpet/darkpack/old,
-/area/vtm/interior/techshop)
 "bXU" = (
 /obj/machinery/button/door{
 	id = "armouryaccess";
@@ -260597,7 +260591,7 @@ ntq
 ntq
 ntq
 oAP
-bXS
+jai
 rbC
 eyx
 tPH
