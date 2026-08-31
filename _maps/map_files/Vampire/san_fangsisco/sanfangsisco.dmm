@@ -11653,6 +11653,12 @@
 /obj/structure/lattice,
 /turf/open/floor/wood/old,
 /area/vtm)
+"dfB" = (
+/turf/closed/wall/vampwall/brick_old{
+	density = 0;
+	color = "#BBBBBB"
+	},
+/area/vtm/interior/sewer)
 "dfC" = (
 /obj/effect/landmark/npcbeacon/directed{
 	dir = 8
@@ -47597,6 +47603,9 @@
 /obj/item/flashlight/lamp/green,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/chantry)
@@ -134742,7 +134751,14 @@ wTq
 wTq
 mCO
 mCO
+fcu
+toG
+fnI
 mCO
+mCO
+mCO
+mCO
+fcu
 toG
 fnI
 mCO
@@ -134750,16 +134766,9 @@ mCO
 mCO
 mCO
 mCO
-toG
-fnI
 mCO
 mCO
-mCO
-mCO
-mCO
-mCO
-mCO
-mCO
+fcu
 ubx
 mCO
 mCO
@@ -136026,12 +136035,12 @@ qGw
 jKH
 qGw
 mCO
-mCO
+fcu
 fAc
 mCO
 mCO
 mCO
-mCO
+fcu
 ycI
 fhe
 mCO
@@ -136039,7 +136048,7 @@ mCO
 mCO
 mCO
 mCO
-mCO
+fcu
 oJE
 mCO
 mCO
@@ -138850,7 +138859,7 @@ wTq
 wTq
 wTq
 wTq
-ybX
+dfB
 wTq
 wTq
 wTq
@@ -267358,7 +267367,7 @@ mmE
 jHi
 jHi
 jMC
-jHi
+xtG
 fLL
 jHi
 jMC
