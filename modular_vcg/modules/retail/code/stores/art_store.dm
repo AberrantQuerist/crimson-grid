@@ -6,6 +6,7 @@
 		new /datum/data/vending_product("black pen", /obj/item/pen, 5),
 		new /datum/data/vending_product("folder", /obj/item/folder, 5),
 		new /datum/data/vending_product("four-color pen", /obj/item/pen/fourcolor, 10),
+		new /datum/data/vending_product("chisel", /obj/item/chisel, 12)
 		new /datum/data/vending_product("paper bin", /obj/item/paper_bin, 20),
 		new /datum/data/vending_product("paint palette", /obj/item/paint_palette, 20),
 		new /datum/data/vending_product("Spray Paint", /obj/item/toy/crayon/spraycan, 20),
