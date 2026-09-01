@@ -9,7 +9,7 @@
 		new /datum/data/vending_product("paper bin", /obj/item/paper_bin, 20),
 		new /datum/data/vending_product("paint palette", /obj/item/paint_palette, 20),
 		new /datum/data/vending_product("Spray Paint", /obj/item/toy/crayon/spraycan, 20),
-		new /datum/data/vending_product("Experimental High Capacity Spray Paint", /obj/item/toy/crayon/spraycan/infinite, 400),
+		new /datum/data/vending_product("Experimental High Capacity Spray Paint", /obj/item/toy/crayon/spraycan/infinite, 800),
 		new /datum/data/vending_product("Canvas, 19x19", /obj/item/canvas/nineteen_nineteen, 10),
 		new /datum/data/vending_product("Canvas, 23x19", /obj/item/canvas/twentythree_nineteen, 12),
 		new /datum/data/vending_product("Canvas, 23x23", /obj/item/canvas/twentythree_twentythree, 14),
