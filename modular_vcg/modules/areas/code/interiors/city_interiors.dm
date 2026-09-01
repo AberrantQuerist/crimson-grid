@@ -49,10 +49,10 @@
 	icon = 'modular_vcg/modules/areas/icons/areas.dmi'
 	icon_state = "shop_baco"
 
-/area/vtm/interior/shop/gamma
-	name = "Gamma Guts"
+/area/vtm/interior/shop/gumma
+	name = "Gumma Guts"
 	icon = 'modular_vcg/modules/areas/icons/areas.dmi'
-	icon_state = "shop_gamma"
+	icon_state = "shop_gumma"
 
 /area/vtm/interior/shop/bubway
 	name = "Bubway"
