@@ -4636,8 +4636,11 @@
 "bkQ" = (
 /mob/living/carbon/human/npc/guard,
 /obj/machinery/light/directional/east,
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 1
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "bkT" = (
 /obj/structure/platform/lowwall/painted/window/reinforced,
 /turf/open/floor/plating/rough,
@@ -6054,6 +6057,9 @@
 /obj/structure/roadsign,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"bDK" = (
+/turf/open/floor/city/bacotell,
+/area/vtm/interior/shop/gumma)
 "bDN" = (
 /mob/living/carbon/human/npc/bouncer/elysium/elysium_2,
 /turf/open/floor/city/plating_mono,
@@ -14666,6 +14672,11 @@
 	},
 /turf/open/floor/wood/old,
 /area/vtm/interior/shop/clothing)
+"dRz" = (
+/obj/structure/table/wood,
+/obj/underplate,
+/turf/open/floor/city/bacotell,
+/area/vtm/interior/shop/gumma)
 "dRC" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/occult/artifact,
@@ -15008,7 +15019,7 @@
 /area/vtm/interior)
 "dWl" = (
 /turf/closed/wall/vampwall/bar,
-/area/vtm/interior/shop)
+/area/vtm/interior/shop/gumma)
 "dWq" = (
 /obj/structure/table/wood/poker,
 /turf/open/floor/plating/rough/cave,
@@ -25646,8 +25657,8 @@
 "gKm" = (
 /obj/structure/table/wood,
 /obj/underplate,
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "gKn" = (
 /obj/structure/hedge,
 /turf/open/floor/city/plating_mono,
@@ -28489,7 +28500,7 @@
 	pixel_x = 16
 	},
 /turf/closed/wall/vampwall/bar,
-/area/vtm/interior/shop)
+/area/vtm/interior/shop/gumma)
 "hza" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
@@ -31375,11 +31386,11 @@
 /turf/open/floor/carpet,
 /area/vtm/interior/chantry)
 "ioi" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack/red{
 	dir = 4
 	},
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "ioj" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/item/food/burger/plain,
@@ -31651,6 +31662,12 @@
 /obj/structure/sign/city/chinese/directional/west,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/chinatown)
+"isQ" = (
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "isR" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer/vampire,
 /obj/structure/glowshroom/single,
@@ -31956,8 +31973,9 @@
 /area/vtm/interior/clinic)
 "iwr" = (
 /obj/structure/vampdoor/glass,
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/obj/effect/turf_decal/bordur,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "iwJ" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -33231,11 +33249,11 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior)
 "iQw" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack/red{
 	dir = 8
 	},
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "iQD" = (
 /obj/structure/vampdoor/wood{
 	lock_id = "banuhaqim"
@@ -33634,8 +33652,8 @@
 /area/vtm/interior/giovanni)
 "iVw" = (
 /mob/living/carbon/human/npc/gummaguts,
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/turf/open/floor/city/bacotell,
+/area/vtm/interior/shop/gumma)
 "iVD" = (
 /obj/structure/table/wood,
 /obj/structure/mirror{
@@ -37707,7 +37725,7 @@
 "jZy" = (
 /obj/structure/fluff/tv/order/four,
 /turf/closed/wall/vampwall/bar,
-/area/vtm/interior/shop)
+/area/vtm/interior/shop/gumma)
 "jZJ" = (
 /obj/item/cigbutt,
 /obj/effect/decal/pallet,
@@ -37959,8 +37977,11 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior/sewer)
 "kdg" = (
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/obj/effect/turf_decal/siding/wood/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "kdp" = (
 /turf/open/floor/plating/rust,
 /area/vtm/interior/strip)
@@ -42085,9 +42106,9 @@
 /turf/closed/wall/vampwall/junk,
 /area/vtm/interior/sewer)
 "ljs" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/obj/item/kirbyplants/darkpack/random,
+/turf/open/floor/city/bacotell,
+/area/vtm/interior/shop/gumma)
 "ljt" = (
 /obj/effect/landmark/start/darkpack/citizen/citizen,
 /turf/open/floor/carpet/green,
@@ -46507,8 +46528,11 @@
 /area/vtm/outside/pacificheights/old)
 "muE" = (
 /obj/machinery/light/directional/north,
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "muI" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 9
@@ -46973,6 +46997,9 @@
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/supply)
+"mAc" = (
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "mAd" = (
 /obj/structure/table/wood/fancy/orange,
 /obj/item/storage/pill_bottle/estrogen{
@@ -49340,8 +49367,8 @@
 "ndI" = (
 /obj/structure/table/wood,
 /obj/structure/retail/gummaguts_menu,
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/turf/open/floor/city/bacotell,
+/area/vtm/interior/shop/gumma)
 "ndL" = (
 /obj/structure/vampdoor/old,
 /turf/open/floor/plating/rough/cave,
@@ -53140,6 +53167,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop/gas_station)
+"odo" = (
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 1
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "odu" = (
 /obj/effect/landmark/npcability,
 /obj/structure/roadsign/busstop,
@@ -60466,12 +60499,12 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/millennium_tower/f2)
 "pYH" = (
-/obj/structure/chair/wood{
+/obj/machinery/light/directional/west,
+/obj/structure/chair/wood/darkpack/red{
 	dir = 4
 	},
-/obj/machinery/light/directional/west,
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "pYN" = (
 /obj/structure/table,
 /obj/machinery/light/directional/east,
@@ -60608,8 +60641,8 @@
 /area/vtm/interior/baali)
 "qbT" = (
 /obj/structure/table/wood,
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/shop/gumma)
 "qbU" = (
 /obj/effect/turf_decal/siding/grey{
 	dir = 6
@@ -60636,8 +60669,8 @@
 /obj/underplate/stuff{
 	pixel_y = 8
 	},
-/turf/open/floor/city/gummaguts,
-/area/vtm/interior/shop)
+/turf/open/floor/city/bacotell,
+/area/vtm/interior/shop/gumma)
 "qct" = (
 /obj/machinery/barsign{
 	pixel_y = 32
@@ -70146,6 +70179,10 @@
 /obj/structure/ladder/manhole/up,
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
+"swe" = (
+/obj/structure/table/wood,
+/turf/open/floor/city/bacotell,
+/area/vtm/interior/shop/gumma)
 "swn" = (
 /obj/effect/decal/graffiti/large,
 /obj/structure/glowshroom/single,
@@ -91269,7 +91306,7 @@
 "yfy" = (
 /obj/structure/platform/lowwall/bar/window,
 /turf/open/floor/plating/rough,
-/area/vtm/interior/shop)
+/area/vtm/interior/shop/gumma)
 "yfA" = (
 /obj/effect/landmark/event_spawn/szlachta,
 /turf/open/floor/plating/asphalt,
@@ -170209,7 +170246,7 @@ oWV
 yfy
 ioi
 ioi
-kdg
+mAc
 pYH
 yfy
 oWV
@@ -170466,7 +170503,7 @@ oWV
 yfy
 qbT
 gKm
-kdg
+mAc
 qbT
 yfy
 oWV
@@ -170723,7 +170760,7 @@ oWV
 dWl
 iQw
 iQw
-kdg
+mAc
 iQw
 dWl
 oWV
@@ -170979,8 +171016,8 @@ obM
 oWV
 dWl
 muE
-kdg
-kdg
+isQ
+isQ
 kdg
 iwr
 oWV
@@ -171235,10 +171272,10 @@ hve
 obM
 oWV
 yfy
-kdg
-qbT
-kdg
-kdg
+bDK
+swe
+bDK
+odo
 iwr
 oWV
 vox
@@ -171494,8 +171531,8 @@ oWV
 dWl
 iVw
 ndI
-kdg
-kdg
+bDK
+odo
 yfy
 oWV
 vox
@@ -171749,10 +171786,10 @@ hwp
 obM
 oWV
 hyW
-kdg
-gKm
-kdg
-kdg
+bDK
+dRz
+bDK
+odo
 yfy
 oWV
 vox
@@ -172008,7 +172045,7 @@ gkZ
 jZy
 ljs
 qcp
-kdg
+bDK
 bkQ
 dWl
 oWV

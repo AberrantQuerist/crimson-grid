@@ -16,3 +16,12 @@
 
 /obj/effect/turf_decal/asphaltline/arrow/right
 	icon_state = "arrow_r"
+
+/obj/effect/turf_decal/asphaltline/stop
+	icon_state = "stop"
+
+/obj/effect/turf_decal/asphaltline/ped
+	icon_state = "ped"
+
+/obj/effect/turf_decal/asphaltline/xing
+	icon_state = "xing"
