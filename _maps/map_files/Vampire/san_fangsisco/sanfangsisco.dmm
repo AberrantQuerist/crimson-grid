@@ -9091,6 +9091,11 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/carpet,
 /area/vtm/interior/setite)
+"csI" = (
+/obj/structure/platform/lowwall/bar/window,
+/obj/effect/decal/wallpaper/red/low,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/shop/gumma)
 "csL" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 6
@@ -24901,6 +24906,10 @@
 /obj/structure/table/wood,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/trujah)
+"gBf" = (
+/obj/effect/decal/wallpaper/red/low,
+/turf/closed/wall/vampwall/bar,
+/area/vtm/interior/shop/gumma)
 "gBs" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -28499,6 +28508,7 @@
 /obj/structure/fluff/tv/order/three{
 	pixel_x = 16
 	},
+/obj/effect/decal/wallpaper/red/low,
 /turf/closed/wall/vampwall/bar,
 /area/vtm/interior/shop/gumma)
 "hza" = (
@@ -37724,6 +37734,7 @@
 /area/vtm/interior/millennium_tower/f2)
 "jZy" = (
 /obj/structure/fluff/tv/order/four,
+/obj/effect/decal/wallpaper/red/low,
 /turf/closed/wall/vampwall/bar,
 /area/vtm/interior/shop/gumma)
 "jZJ" = (
@@ -170243,7 +170254,7 @@ hwp
 hwp
 obM
 oWV
-yfy
+csI
 ioi
 ioi
 mAc
@@ -170500,7 +170511,7 @@ hwp
 hwp
 obM
 oWV
-yfy
+csI
 qbT
 gKm
 mAc
@@ -170757,7 +170768,7 @@ hwp
 hwp
 obM
 oWV
-dWl
+gBf
 iQw
 iQw
 mAc
@@ -171014,7 +171025,7 @@ hwp
 hwp
 obM
 oWV
-dWl
+gBf
 muE
 isQ
 isQ
@@ -171271,7 +171282,7 @@ jul
 hve
 obM
 oWV
-yfy
+csI
 bDK
 swe
 bDK
@@ -171528,7 +171539,7 @@ jul
 hwp
 obM
 oWV
-dWl
+gBf
 iVw
 ndI
 bDK
