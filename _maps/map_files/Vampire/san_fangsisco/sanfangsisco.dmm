@@ -4079,6 +4079,16 @@
 	},
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
+"beM" = (
+/obj/effect/decal/shadow,
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 4;
+	pixel_x = 0
+	},
+/obj/machinery/sprinkler,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/oldchurch)
 "beQ" = (
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/misc/dirt,
@@ -4381,6 +4391,7 @@
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
 	id = "Tremere_Office"
 	},
+/obj/effect/decal/wallpaper/paper/rich/low,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/chantry)
 "biB" = (
@@ -6754,7 +6765,7 @@
 "bOr" = (
 /obj/structure/curtain/bounty{
 	pixel_x = 32;
-	pixel_y = 0
+	pixel_y = 15
 	},
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/chantry)
@@ -11124,12 +11135,8 @@
 /area/vtm/interior)
 "cXi" = (
 /obj/item/flashlight/flare/candle/infinite{
-	pixel_x = -7;
-	pixel_y = -1
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 8;
-	pixel_y = -2
+	pixel_x = 0;
+	pixel_y = 10
 	},
 /turf/open/floor/cult,
 /area/vtm/interior/chantry/basement)
@@ -23566,6 +23573,12 @@
 /obj/item/reagent_containers/cup/bottle/salglu_solution,
 /turf/open/floor/city/circled,
 /area/vtm/interior/clinic)
+"goP" = (
+/obj/structure/curtain/cloth/fancy{
+	pixel_y = 15
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/chantry)
 "goR" = (
 /obj/structure/railing/darkpack/metal/industrial/solo{
 	dir = 1
@@ -34175,16 +34188,12 @@
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
 "jml" = (
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 9;
-	pixel_y = -1
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 1;
-	pixel_y = 8
-	},
 /obj/structure/railing/darkpack/metal/industrial{
 	dir = 10
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 12;
+	pixel_y = 16
 	},
 /turf/open/floor/cult,
 /area/vtm/interior/chantry/basement)
@@ -37648,6 +37657,10 @@
 	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry/basement)
+"kku" = (
+/obj/machinery/sprinkler,
+/turf/open/floor/city/church,
+/area/vtm/interior/oldchurch)
 "kkH" = (
 /obj/effect/landmark/npcwall,
 /obj/structure/flora/darkpack_flower/yerba,
@@ -43502,14 +43515,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/setite)
 "lPl" = (
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 12;
-	pixel_y = 2
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 6;
-	pixel_y = -6
-	},
 /obj/structure/railing/darkpack/metal/industrial{
 	dir = 9;
 	pixel_x = 0;
@@ -43517,6 +43522,10 @@
 	},
 /obj/structure/railing/darkpack/metal/industrial{
 	dir = 8
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = 12;
+	pixel_y = -9
 	},
 /turf/open/floor/cult,
 /area/vtm/interior/chantry/basement)
@@ -47284,12 +47293,8 @@
 /area/vtm/interior/giovanni)
 "mPF" = (
 /obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 2;
-	pixel_y = 10
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 0;
-	pixel_y = -4
+	pixel_x = 5;
+	pixel_y = 3
 	},
 /turf/open/floor/cult,
 /area/vtm/interior/chantry/basement)
@@ -47963,6 +47968,10 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior)
+"mXS" = (
+/obj/machinery/sprinkler,
+/turf/open/floor/city/saint,
+/area/vtm/interior/oldchurch)
 "mYc" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/reagent_containers/cup/glass/drinkingglass/martini_glass,
@@ -53814,12 +53823,8 @@
 /area/vtm/interior/bianchiBank)
 "oCt" = (
 /obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 0;
-	pixel_y = 8
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 2;
-	pixel_y = -4
+	pixel_x = -6;
+	pixel_y = 3
 	},
 /turf/open/floor/cult,
 /area/vtm/interior/chantry/basement)
@@ -63756,7 +63761,8 @@
 /area/vtm/interior/endron_facility/restricted)
 "rgN" = (
 /obj/structure/curtain/cloth/fancy/mechanical{
-	id = 2006
+	id = 2006;
+	pixel_y = 15
 	},
 /obj/structure/platform/lowwall/old/window,
 /turf/open/floor/plating/rough,
@@ -65458,16 +65464,12 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/techshop)
 "rDj" = (
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = -8;
-	pixel_y = 3
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 1;
-	pixel_y = 12
-	},
 /obj/structure/railing/darkpack/metal/industrial{
 	dir = 6
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -11;
+	pixel_y = 17
 	},
 /turf/open/floor/cult,
 /area/vtm/interior/chantry/basement)
@@ -67513,14 +67515,6 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/glasswalker)
 "seC" = (
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = -4;
-	pixel_y = -7
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = -8;
-	pixel_y = 4
-	},
 /obj/structure/railing/darkpack/metal/industrial{
 	dir = 5;
 	pixel_x = 0;
@@ -67528,6 +67522,10 @@
 	},
 /obj/structure/railing/darkpack/metal/industrial{
 	dir = 4
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_x = -12;
+	pixel_y = -8
 	},
 /turf/open/floor/cult,
 /area/vtm/interior/chantry/basement)
@@ -70867,12 +70865,8 @@
 /area/vtm/interior/hotel)
 "taT" = (
 /obj/item/flashlight/flare/candle/infinite{
-	pixel_x = 7;
-	pixel_y = 4
-	},
-/obj/item/flashlight/flare/candle/infinite{
-	pixel_x = -5;
-	pixel_y = 5
+	pixel_x = 0;
+	pixel_y = -4
 	},
 /turf/open/floor/cult,
 /area/vtm/interior/chantry/basement)
@@ -76272,6 +76266,10 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/strip)
+"uAB" = (
+/obj/machinery/sprinkler,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/oldchurch)
 "uAD" = (
 /obj/structure/table/wood/poker,
 /obj/item/toy/cards/deck,
@@ -86033,6 +86031,10 @@
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/chantry/basement)
+"xkC" = (
+/obj/machinery/sprinkler,
+/turf/open/floor/carpet,
+/area/vtm/interior/oldchurch)
 "xkF" = (
 /obj/machinery/sprinkler/area_managed,
 /turf/open/floor/carpet,
@@ -88242,6 +88244,11 @@
 /obj/structure/sign/picture_frame/portrait,
 /turf/closed/wall/vampwall/redbrick,
 /area/vtm/interior/bianchiBank)
+"xNA" = (
+/obj/structure/chair/wood/darkpack,
+/obj/machinery/sprinkler,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/oldchurch)
 "xNC" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -174766,18 +174773,18 @@ pit
 xkW
 xkW
 qeg
-vJN
+beM
 fwN
 fwN
 fwN
 byj
+mXS
 byj
 byj
-byj
 fwN
 fwN
 fwN
-fwN
+uAB
 fwN
 fwN
 nzD
@@ -240309,12 +240316,12 @@ fYI
 lrr
 tJn
 tJn
-tJn
+kku
 nCL
 bsl
 lZq
 tRQ
-tJn
+kku
 tJn
 rcT
 fYI
@@ -240553,7 +240560,7 @@ uOC
 muT
 brs
 sDV
-uXF
+xkC
 uXF
 uXF
 gsk
@@ -241058,11 +241065,11 @@ fYI
 uFW
 uXF
 suq
-iIM
+xNA
 fwN
 fwN
 fwN
-fwN
+uAB
 fwN
 fwN
 brs
@@ -241330,7 +241337,7 @@ fwN
 duK
 mgw
 xGA
-uXF
+xkC
 uXF
 uXF
 nJG
@@ -265045,8 +265052,8 @@ dar
 ntq
 ntq
 xtG
-qBm
-qBm
+goP
+goP
 xtG
 pAZ
 ohT
@@ -266864,7 +266871,7 @@ gMB
 xtG
 wCZ
 hoA
-hmH
+xtG
 wWe
 aTn
 fda
@@ -267363,7 +267370,7 @@ jHi
 jHi
 jHi
 mmE
-mmE
+jHi
 jHi
 jHi
 jMC
@@ -267378,7 +267385,7 @@ rgN
 xtG
 hoA
 hoA
-xtG
+hmH
 bhb
 hoA
 hoA
