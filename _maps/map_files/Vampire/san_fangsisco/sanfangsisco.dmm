@@ -4494,8 +4494,10 @@
 /turf/open/floor/wood/old,
 /area/vtm/interior/theatre)
 "bke" = (
-/obj/effect/decal/painting,
-/obj/effect/decal/wallpaper/red,
+/obj/effect/decal/wallpaper/red{
+	pixel_x = 0;
+	pixel_y = 0
+	},
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/chantry/basement)
 "bki" = (
@@ -21458,11 +21460,6 @@
 /obj/machinery/light/warm/directional/west,
 /turf/open/floor/carpet,
 /area/vtm/interior/cog/caern)
-"fLk" = (
-/obj/effect/decal/wallpaper/red,
-/obj/effect/decal/painting/second,
-/turf/closed/wall/vampwall/rich/old,
-/area/vtm/interior/chantry/basement)
 "fLm" = (
 /obj/structure/toilet{
 	dir = 4;
@@ -37641,6 +37638,14 @@
 /obj/structure/table,
 /turf/open/floor/city/toilet,
 /area/vtm/interior/setite)
+"kiJ" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/decal/painting/third{
+	pixel_x = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/carpet/darkpack,
+/area/vtm/interior/chantry/basement)
 "kiL" = (
 /obj/structure/table/wood,
 /obj/structure/fluff/tv{
@@ -69328,6 +69333,14 @@
 /obj/machinery/sprinkler/area_managed,
 /turf/open/floor/city/clinic,
 /area/vtm/interior/clinic)
+"sBb" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/decal/painting{
+	pixel_x = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/carpet/darkpack,
+/area/vtm/interior/chantry/basement)
 "sBj" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -69976,6 +69989,14 @@
 /obj/structure/reagent_dispensers/cleaningfluid,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
+"sJI" = (
+/obj/structure/hedge,
+/obj/effect/decal/painting/second{
+	pixel_x = 0;
+	pixel_y = 32
+	},
+/turf/open/floor/wood/herring,
+/area/vtm/interior/chantry/basement)
 "sJM" = (
 /obj/machinery/sprinkler/area_managed,
 /turf/open/floor/wood/ornate,
@@ -89742,11 +89763,6 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/interior/library)
-"yjr" = (
-/obj/effect/decal/painting/third,
-/obj/effect/decal/wallpaper/red,
-/turf/closed/wall/vampwall/rich/old,
-/area/vtm/interior/chantry/basement)
 "yjs" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 4
@@ -132966,7 +132982,7 @@ mUa
 mUa
 wTq
 bke
-cLg
+sBb
 rQa
 jze
 poS
@@ -133479,8 +133495,8 @@ mCO
 mCO
 mCO
 mCO
-yjr
-cLg
+aJO
+kiJ
 rQa
 mzM
 nhN
@@ -135007,8 +135023,8 @@ qGw
 qGw
 qGw
 qGw
-fLk
-ukJ
+aJO
+sJI
 iJP
 ocD
 tvY
