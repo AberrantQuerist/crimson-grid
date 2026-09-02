@@ -9529,6 +9529,9 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/millennium_tower/f2)
+"cwK" = (
+/turf/open/floor/city/toilet/large,
+/area/vtm/interior/shop/clothing)
 "cwM" = (
 /obj/structure/werewolf_totem/spiral{
 	pixel_x = -15;
@@ -20504,7 +20507,10 @@
 	dir = 1
 	},
 /obj/structure/vampdoor/simple,
-/turf/open/floor/plating/concrete,
+/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/lock_difficulty/two,
+/obj/effect/turf_decal/siding/grey,
+/turf/open/floor/city/toilet/large,
 /area/vtm/interior/shop/clothing)
 "fpu" = (
 /turf/open/misc/grass,
@@ -51538,9 +51544,13 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/millennium_tower/f3)
 "nwY" = (
-/obj/effect/turf_decal/siding/white,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
 /obj/structure/vampdoor/simple,
-/turf/open/floor/city/bacotell,
+/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/lock_difficulty/two,
+/turf/open/floor/city/toilet,
 /area/vtm/interior/shop/baco)
 "nxa" = (
 /obj/effect/turf_decal/siding/white{
@@ -74567,7 +74577,7 @@
 "tqu" = (
 /obj/machinery/light/small/directional/north,
 /obj/structure/toilet,
-/turf/open/floor/city/toilet,
+/turf/open/floor/city/toilet/large,
 /area/vtm/interior/shop/clothing)
 "tqw" = (
 /obj/structure/table,
@@ -84999,11 +85009,12 @@
 /turf/open/water,
 /area/vtm/interior/bianchiBank)
 "web" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
 /obj/structure/vampdoor/glass,
-/turf/open/floor/plating/sidewalk,
+/obj/effect/mapping_helpers/door/autoname,
+/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/turf_decal/bordur,
+/turf/open/floor/city/bacotell,
 /area/vtm/interior/shop/baco)
 "wed" = (
 /obj/structure/chair/office{
@@ -202162,7 +202173,7 @@ rpk
 rpk
 rsH
 fxx
-fxx
+jxV
 fxx
 kZn
 nYX
@@ -203953,7 +203964,7 @@ hpn
 xmS
 xLp
 tqu
-tRm
+cwK
 fpn
 vZr
 vZr
