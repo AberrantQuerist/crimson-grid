@@ -32,6 +32,7 @@
 		new /datum/data/vending_product("executive carpet", /obj/item/stack/tile/carpet/executive/thirty, 75),
 		new /datum/data/vending_product("stellar carpet", /obj/item/stack/tile/carpet/stellar/thirty, 75),
 		new /datum/data/vending_product("neon carpet", /obj/item/stack/tile/carpet/neon/thirty, 75),
+		new /datum/data/vending_product("city-balanced radio", /obj/item/radio, 25),
 // CRIMSON EDIT ADD END - Shop Inventories Additions
 		new /datum/data/vending_product("construction vest", /obj/item/clothing/suit/hazardvest, 80)
 	)

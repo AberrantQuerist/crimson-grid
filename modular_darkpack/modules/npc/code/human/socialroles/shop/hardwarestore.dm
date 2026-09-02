@@ -15,12 +15,15 @@
 		"The cheap version will work... I hope.",
 		"Online tutorial got you here, huh?",
 		"I don't know what you're building and I've decided not to ask.",
-		"Bet you're glad to be first in line.",
-		"We've got allen wrenches, gerbil feeders, toilet seats, electric heaters...", 				// Crimson Grid Add Start
+// CRIMSON GRID ADD START - Shop TLC
+		"Would you look at all that stuff...",
+		"We've got allen wrenches, gerbil feeders, toilet seats, electric heaters...",
 		"Matching salt-and-pepper shakers are out of stock.",
-		"Might I interest you in pesticides for fumigation? Maybe high-performance lubrication?",
-		"Every 27th customer gets a ball-peen hammer, free!",
-		"Try our automatic circumcisers today!",
-		"You just can't wait, can't you?",
-		"Our door opens when we say it does. Stop asking.", 										// Crimson Grid Add End
+		"Might I interest you in pesticides for fumigation... or high-performance lubrication?",
+		"Every 27th customer gets a ball-peen hammer, free of charge!",
+		"We've got a special pair of pliers for EVERY room of your house!",
+		"Absolutely NO returns for our automatic circumcisers.",
+		"You just can't wait, can you?",
+		"Our door opens when we say it does. Stop asking.",
+// CRIMSON GRID ADD END - Shop TLC
 	)
