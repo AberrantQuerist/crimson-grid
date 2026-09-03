@@ -10868,13 +10868,6 @@
 /area/vtm/interior)
 "cUl" = (
 /obj/structure/stairs/east,
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
-	},
-/obj/structure/railing{
-	dir = 4
-	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/setite/basement)
 "cUv" = (
@@ -37398,19 +37391,6 @@
 /obj/structure/vampstatue,
 /turf/open/water,
 /area/vtm/outside/forest)
-"kmh" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
-	},
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/openspace,
-/area/vtm/interior/setite)
 "kmi" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/carpet,
@@ -49672,13 +49652,6 @@
 /turf/open/floor/carpet,
 /area/vtm/interior/anarch)
 "nEX" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
-	},
 /turf/open/openspace,
 /area/vtm/interior/setite)
 "nFa" = (
@@ -67167,6 +67140,10 @@
 /obj/structure/platform/lowwall/rich/window,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/millennium_tower/f3)
+"skO" = (
+/obj/structure/werewolf_totem/generic/weaver,
+/turf/open/floor/circuit,
+/area/vtm/interior/techshop)
 "skW" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -78506,9 +78483,6 @@
 /area/vtm/interior/clinic/haven)
 "vtZ" = (
 /obj/structure/stairs/west,
-/obj/structure/railing{
-	dir = 4
-	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/setite)
 "vuc" = (
@@ -134926,7 +134900,7 @@ pgL
 ewg
 vXz
 ewg
-vXz
+skO
 ewg
 vXz
 qmj
@@ -221182,7 +221156,7 @@ dAV
 dAV
 iKo
 dAV
-kmh
+nEX
 dAV
 iKo
 tJL
