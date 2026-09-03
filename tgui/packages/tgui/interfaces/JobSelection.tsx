@@ -17,7 +17,6 @@ import {
   LobbyNotices,
   type LobbyNoticesType,
 } from './common/crimson/LobbyNotices';
-import { JOB2ICON } from './common/JobToIcon';
 
 type Job = {
   unavailable_reason: string | null;
