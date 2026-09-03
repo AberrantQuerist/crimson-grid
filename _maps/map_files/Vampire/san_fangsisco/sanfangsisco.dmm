@@ -56053,7 +56053,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
 "pqN" = (
-/obj/structure/werewolf_totem/glasswalker,
+/obj/structure/werewolf_totem/generic/weaver,
 /obj/structure/cable/layer1,
 /turf/open/floor/circuit,
 /area/vtm/interior/glasswalker)
@@ -67141,7 +67141,6 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/millennium_tower/f3)
 "skO" = (
-/obj/structure/werewolf_totem/generic/weaver,
 /turf/open/floor/circuit,
 /area/vtm/interior/techshop)
 "skW" = (
