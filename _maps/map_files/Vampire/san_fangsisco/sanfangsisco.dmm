@@ -2081,7 +2081,7 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "azz" = (
 /obj/structure/safe,
 /turf/open/floor/wood/smooth/old,
@@ -2989,7 +2989,7 @@
 /obj/structure/closet/crate/large,
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "aMe" = (
 /obj/structure/bed{
 	pixel_x = 0;
@@ -3313,7 +3313,7 @@
 "aQC" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "aQD" = (
 /obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/iron/small,
@@ -3879,7 +3879,7 @@
 /obj/item/stack/rods,
 /obj/item/stack/rods,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "aXt" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -4271,7 +4271,7 @@
 "bcP" = (
 /obj/item/chair/wood,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "bcS" = (
 /obj/structure/railing{
 	dir = 8
@@ -8840,7 +8840,7 @@
 "cjb" = (
 /obj/item/bodybag,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "cjg" = (
 /obj/effect/gibspawner/human,
 /obj/machinery/light/small/directional/south,
@@ -11142,7 +11142,7 @@
 "cMU" = (
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "cMV" = (
 /obj/item/lighter,
 /obj/item/storage/fancy/cigarettes/cigars{
@@ -15383,7 +15383,7 @@
 "dTx" = (
 /obj/structure/table,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "dTy" = (
 /obj/machinery/computer/security{
 	network = list("Endron")
@@ -16412,7 +16412,7 @@
 /obj/effect/decal/cleanable/litter,
 /mob/living/basic/ghost,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "egv" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/city/plating,
@@ -17194,7 +17194,7 @@
 "erg" = (
 /obj/structure/closet/crate/trashcart,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "eri" = (
 /obj/weapon_showcase,
 /obj/machinery/light/prince/directional/east,
@@ -18260,7 +18260,7 @@
 /obj/effect/decal/pallet,
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "eGy" = (
 /obj/structure/filingcabinet{
 	pixel_x = 6;
@@ -20865,7 +20865,7 @@
 /area/vtm/interior/salubri)
 "fpc" = (
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "fpe" = (
 /obj/structure/vampdoor/old{
 	lock_id = "triad";
@@ -25460,7 +25460,7 @@
 /obj/ritual_rune/thaumaturgy/selfgib,
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "gxI" = (
 /obj/darkpack_car/track/volkswagen,
 /turf/open/floor/plating/sidewalk/poor,
@@ -26139,7 +26139,7 @@
 /mob/living/basic/ghost,
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "gFS" = (
 /obj/transfer_point_vamp{
 	id = "Forest_Transfer1"
@@ -28229,7 +28229,7 @@
 "hhk" = (
 /obj/structure/closet/crate/large,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "hhl" = (
 /obj/effect/decal/wallpaper/paper/green,
 /turf/open/floor/city/church,
@@ -30626,7 +30626,7 @@
 /mob/living/basic/ghost,
 /obj/effect/decal/cleanable/garbage,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "hNp" = (
 /turf/closed/wall/vampwall/junk,
 /area/vtm/outside/fishermanswharf/ghetto)
@@ -31011,7 +31011,7 @@
 /obj/item/reagent_containers/cup/glass/bottle/beer/vampire,
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "hRS" = (
 /mob/living/basic/szlachta/fister/hostile,
 /turf/open/floor/plating/concrete,
@@ -31366,7 +31366,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "hXI" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/city/toilet,
@@ -31660,7 +31660,7 @@
 /area/vtm/interior/strip)
 "ibO" = (
 /turf/closed/wall/vampwall/junk,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "ibT" = (
 /obj/effect/turf_decal/bordur{
 	dir = 10
@@ -32400,7 +32400,7 @@
 "ine" = (
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "inm" = (
 /obj/structure/vampipe{
 	icon_state = "piping43"
@@ -32745,7 +32745,7 @@
 "isf" = (
 /obj/structure/vampdoor/old,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "isk" = (
 /obj/effect/turf_decal/darkpack/grass,
 /obj/effect/turf_decal/darkpack/grass/corner,
@@ -34101,7 +34101,7 @@
 "iKg" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "iKj" = (
 /turf/open/openspace,
 /area/vtm/interior/church/staff)
@@ -34922,7 +34922,7 @@
 /mob/living/basic/ghost,
 /obj/machinery/griddle,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "iVJ" = (
 /obj/effect/turf_decal/bordur{
 	dir = 9
@@ -35006,7 +35006,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "iWE" = (
 /obj/structure/vampdoor/reinf{
 	dir = 8
@@ -35966,7 +35966,7 @@
 /obj/item/paper,
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "jlj" = (
 /obj/structure/reagent_dispensers/water_cooler{
 	pixel_x = -6;
@@ -36489,7 +36489,7 @@
 "jsj" = (
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "jsk" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/smooth/old,
@@ -41492,7 +41492,7 @@
 	},
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "kKI" = (
 /obj/structure/table,
 /obj/item/melee/vamp/tire{
@@ -49978,7 +49978,7 @@
 /obj/structure/closet/crate/large,
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "mSN" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 8
@@ -52896,7 +52896,7 @@
 "nGu" = (
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "nGC" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -53996,7 +53996,7 @@
 /obj/effect/decal/cleanable/trash,
 /mob/living/basic/ghost,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "nSD" = (
 /turf/open/water/beach/vamp/deep,
 /area/vtm)
@@ -54714,7 +54714,7 @@
 /obj/item/stack/rods,
 /obj/item/stack/rods,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "ocR" = (
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower)
@@ -55440,7 +55440,7 @@
 /obj/structure/closet/crate/large,
 /obj/item/storage/box/lights/bulbs,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "ooH" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -58543,7 +58543,7 @@
 	},
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "paH" = (
 /obj/structure/vampdoor/simple{
 	dir = 8
@@ -59681,7 +59681,7 @@
 /obj/structure/closet/crate/large,
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "prx" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 8
@@ -62004,7 +62004,7 @@
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "pVf" = (
 /obj/effect/turf_decal/darkpack/dirt,
 /turf/open/floor/plating/rough,
@@ -62853,7 +62853,7 @@
 /obj/item/mop,
 /obj/structure/mop_bucket,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "qgP" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -63677,7 +63677,7 @@
 "qsD" = (
 /mob/living/basic/ghost,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "qsG" = (
 /obj/structure/bed,
 /obj/machinery/camera/directional/north{
@@ -67582,7 +67582,7 @@
 /obj/item/stack/rods,
 /obj/item/stack/rods,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "rpn" = (
 /obj/machinery/light/prince/directional/east,
 /obj/effect/turf_decal/siding/wood{
@@ -67930,7 +67930,7 @@
 "rsW" = (
 /obj/effect/gibspawner/human,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "rtf" = (
 /obj/structure/closet/crate/coffin,
 /obj/machinery/light/small/directional/north,
@@ -68382,7 +68382,7 @@
 /obj/item/reagent_containers/blood/vitae,
 /obj/item/reagent_containers/blood/vitae,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "rxj" = (
 /obj/structure/closet/crate/dumpster,
 /turf/open/floor/plating/sidewalk,
@@ -72444,7 +72444,7 @@
 /obj/effect/decal/cleanable/garbage,
 /obj/effect/decal/cleanable/garbage,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "syW" = (
 /obj/structure/table/countertop/purple,
 /obj/item/storage/box/bodybags{
@@ -73975,7 +73975,7 @@
 "sWe" = (
 /obj/item/fireaxe/vamp,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "sWg" = (
 /obj/structure/closet/secure_closet/freezer,
 /turf/open/floor/city/toilet,
@@ -74315,7 +74315,7 @@
 /obj/item/watch,
 /obj/item/watch,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "tay" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -75714,7 +75714,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "tsO" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -75794,7 +75794,7 @@
 	},
 /obj/item/clothing/glasses/vampire/perception,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "ttW" = (
 /obj/effect/decal/pallet,
 /obj/structure/closet/cardboard,
@@ -77333,7 +77333,7 @@
 /obj/item/reagent_containers/cup/glass/bottle/beer/vampire,
 /obj/item/reagent_containers/cup/glass/bottle/beer/vampire,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "tQO" = (
 /obj/structure/table/wood/fancy/red,
 /turf/open/floor/city/plating,
@@ -78349,7 +78349,7 @@
 /obj/effect/decal/cleanable/trash,
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "ugD" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/lone,
@@ -79322,7 +79322,7 @@
 "usM" = (
 /obj/effect/decal/cleanable/garbage,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "usX" = (
 /obj/effect/landmark/npcbeacon/directed{
 	dir = 4
@@ -80418,7 +80418,7 @@
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/dollar/hundred,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "uGF" = (
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/siding/red{
@@ -84058,7 +84058,7 @@
 	accesslocks = list("mansion")
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "vFa" = (
 /obj/effect/decal/wallpaper/blue/low,
 /obj/structure/platform/lowwall/market/window,
@@ -84108,7 +84108,7 @@
 "vFL" = (
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "vFM" = (
 /obj/effect/decal/cleanable/garbage,
 /obj/effect/decal/cleanable/cardboard,
@@ -84645,7 +84645,7 @@
 "vNu" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer/vampire,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "vNz" = (
 /obj/item/trash/syndi_cakes,
 /obj/effect/landmark/npcwall,
@@ -87762,7 +87762,7 @@
 /obj/effect/decal/cleanable/litter,
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "wDG" = (
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/church)
@@ -88956,7 +88956,7 @@
 "wTt" = (
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "wTv" = (
 /obj/structure/statue/bone/rib,
 /turf/open/floor/plating/canal,
@@ -89016,7 +89016,7 @@
 /obj/item/bodybag,
 /obj/item/bodybag,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "wUR" = (
 /obj/effect/landmark/npcwall,
 /obj/effect/landmark/npcwall,
@@ -89451,7 +89451,7 @@
 /mob/living/basic/ghost,
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "wZV" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer/vampire,
 /obj/effect/decal/cleanable/trash,
@@ -92871,7 +92871,7 @@
 "xSz" = (
 /obj/effect/mob_spawn/corpse/human/ciz4,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "xSG" = (
 /obj/structure/flora/bush/flowers_yw/style_random,
 /obj/effect/turf_decal/weather/dirt,
@@ -92905,7 +92905,7 @@
 /obj/item/ritual_tome/arcane,
 /obj/machinery/light/small/red/directional/east,
 /turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
+/area/vtm/interior/mansion)
 "xTh" = (
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
