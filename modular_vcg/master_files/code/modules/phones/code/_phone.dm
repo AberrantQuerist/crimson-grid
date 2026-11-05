@@ -16,20 +16,21 @@
 
 /obj/item/smartphone/ui_close(mob/user)
 	. = ..()
+	if(always_open)
+		return
 	// Lock sound!
+	for (var/datum/tgui/window as anything in open_uis)
+		if(window.status != UI_INTERACTIVE || window.user == user)
+			continue
+		return
 	playsound(loc, 'modular_vcg/master_files/sounds/item/smartphone/aosp/Lock.ogg', 20, TRUE)
-
-	if(phone_flags & PHONE_OPEN)
-		phone_flags &= ~PHONE_OPEN
-	else
-		phone_flags |= PHONE_OPEN
+	opened = FALSE
+	update_appearance(UPDATE_ICON_STATE)
 
 /obj/item/smartphone/toggle_screen(mob/user)
-	var/prev_flags = phone_flags
+	var/prev_opened = opened
 	. = ..()
-	var/new_flags = phone_flags
-
-	if (!(prev_flags & PHONE_OPEN) && (new_flags & PHONE_OPEN))
+	if(!prev_opened && opened)
 		playsound(loc, 'modular_vcg/master_files/sounds/item/smartphone/aosp/Unlock.ogg', 20)
 
 /obj/item/smartphone/ui_data(mob/user)
