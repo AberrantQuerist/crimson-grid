@@ -2539,7 +2539,9 @@
 /turf/open/floor/plating/sidewalk,
 /area/space)
 "XV" = (
-/obj/structure/lamppost/sidewalk,
+/obj/machinery/light/floor/lamppost/sidewalk{
+	pixel_y = -1
+	},
 /turf/open/misc/grass/nosmooth,
 /area/space)
 "XX" = (
