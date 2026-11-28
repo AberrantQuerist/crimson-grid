@@ -3,55 +3,55 @@
 
 // West <=> East
 // 50th St
-/area/vtm/outside/chicago/street/50
+/area/vtm/outside/chicago/street/fifty
 	name = "50th Street"
 
-/area/vtm/outside/chicago/street/50/central
+/area/vtm/outside/chicago/street/fifty/central
 	name = "Central 50th Street"
 
-/area/vtm/outside/chicago/street/50/west
+/area/vtm/outside/chicago/street/fifty/west
 	name = "West 50th Street"
 
-/area/vtm/outside/chicago/street/50/east
+/area/vtm/outside/chicago/street/fifty/east
 	name = "East 50th Street"
 
 // 51st St
-/area/vtm/outside/chicago/street/51
+/area/vtm/outside/chicago/street/fifty_first
 	name = "51st Street"
 
-/area/vtm/outside/chicago/street/51/central
+/area/vtm/outside/chicago/street/fifty_first/central
 	name = "Central 51st Street"
 
-/area/vtm/outside/chicago/street/51/west
+/area/vtm/outside/chicago/street/fifty_first/west
 	name = "West 51st Street"
 
-/area/vtm/outside/chicago/street/51/east
+/area/vtm/outside/chicago/street/fifty_first/east
 	name = "East 51st Street"
 
 // 52nd St
-/area/vtm/outside/chicago/street/52
+/area/vtm/outside/chicago/street/fifty_second
 	name = "52nd Street"
 
-/area/vtm/outside/chicago/street/52/central
+/area/vtm/outside/chicago/street/fifty_second/central
 	name = "Central 52nd Street"
 
-/area/vtm/outside/chicago/street/52/west
+/area/vtm/outside/chicago/street/fifty_second/west
 	name = "West 52nd Street"
 
-/area/vtm/outside/chicago/street/52/east
+/area/vtm/outside/chicago/street/fifty_second/east
 	name = "East 52nd Street"
 
 // 53rd St
-/area/vtm/outside/chicago/street/53
+/area/vtm/outside/chicago/street/fifty_third
 	name = "53rd Street"
 
-/area/vtm/outside/chicago/street/53/central
+/area/vtm/outside/chicago/street/fifty_third/central
 	name = "Central 53rd Street"
 
-/area/vtm/outside/chicago/street/53/west
+/area/vtm/outside/chicago/street/fifty_third/west
 	name = "West 53rd Street"
 
-/area/vtm/outside/chicago/street/53/east
+/area/vtm/outside/chicago/street/fifty_third/east
 	name = "East 53rd Street"
 
 // North <=> South
