@@ -1,3 +1,6 @@
+/area/vtm/interior/taxi
+	name = "Taxi Depot"
+
 // Shops:
 /area/vtm/interior/shop/arts
 	name = "Art Supplies Store"
